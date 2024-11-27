@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciar Produtos</title>
+    <link rel="stylesheet" href="style_produto.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="img/Logo.png" alt="">
+        </div>
+        <div class="input-container">
+            <input type="texto" id="nomeprodutos" placeholder="Nome do Produto">
+            <input type="numero" id="produtosQuant" placeholder="Quantidade">
+            <button onclick="addProduct()">Adicionar</button>
+        </div>
+        <ul class="Lista-Produtos" id="ListaProdutos"></ul>
+    </div>
+    <script src="script_produto.js"></script>
+</body>
+
+</html>
